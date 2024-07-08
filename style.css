@@ -39,9 +39,10 @@ body{
     align-items: center;
 }
 .container .image .box-image{
-    margin: 20px 0 20px 20px;
-    width: 100%;
+    margin: 20px 0 20px 40px;
+    width: 80%;
     overflow: hidden;
+
 }
 @media (max-width: 768px) {
     .container .image .box-image{
@@ -59,7 +60,6 @@ body{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-
 .container .input-uplode label{
     background-color: rgb(150, 76, 219);
     color: white;
@@ -76,6 +76,8 @@ body{
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+    display: block;
+        margin-top: 20px;
 }
 @media (max-width: 768px) {
     .container .input-uplode label{
