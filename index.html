@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <div class="box-image">
+                <img src="" id="img">
+            </div>
+            <div class="input-uplode">
+                <label for="uplode" class="lable-1">uplode</label>
+                <input type="file"  id="uplode">
+            </div>
+        </div>
+        <div class="filters">
+            <ul>
+                <li>
+                    <label for="grayscale">Grayscale</label>
+                    <input type="range" id="grayscale" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="brightness">Brightness</label>
+                    <input type="range" id="brightness" step="0.1" min="0" max="200" value="20">
+                </li>
+                <li>
+                    <label for="contrast">Contrast</label>
+                    <input type="range" id="contrast" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="blur">Blur</label>
+                    <input type="range" id="blur" min="0" max="200" value="0">
+                </li>
+                <li>
+                    <label for="invert">invert</label>
+                    <input type="range" id="invert" min="0" max="360" value="0">
+                </li>
+                <li>
+                    <label for="saturate">Saturate</label>
+                    <input type="range" id="saturate" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="Sepia">Sepia</label>
+                    <input type="range" id="sepia" min="0" max="200" value="0">
+                </li>
+                <li>
+                    <input type="button" value="Dowload" id="dowload">
+                    <input type="button" value="Reset" id="reset">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
